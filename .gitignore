@@ -1,0 +1,19 @@
+# Ignore the data folder (where your 500MB dataset likely is)
+data/
+datasets/
+*.zip
+*.tar.gz
+
+# Ignore model weights and checkpoints
+*.h5
+*.pt
+*.pth
+checkpoint/
+
+# Ignore Python/Jupyter temporary files
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Ignore environment/secret files
+.env
