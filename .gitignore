@@ -17,3 +17,9 @@ __pycache__/
 
 # Ignore environment/secret files
 .env
+
+dataset_final/
+
+dataset_final.zip
+
+dataset_final/
